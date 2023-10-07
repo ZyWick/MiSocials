@@ -1,0 +1,131 @@
+body {
+    margin:0;
+    background: rgb(21,2,34);
+    background: linear-gradient(172deg, rgba(21,2,34,1) 19%, rgba(253,29,29,1) 65%, rgba(177,24,24,1) 100%);
+}
+
+.one {
+    height: 100vh;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+.ready {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rtext {
+    letter-spacing: 2.2em;
+    text-align: center;
+    padding-left: 2.2em;
+}
+
+.text {
+    font-family: helvetica;
+    color: white;
+}
+
+.hey {
+    font-size: 10em;
+}
+
+.box {
+    height: 10em;
+    width: 10em;
+    background-color: aliceblue;
+}
+
+.icon {
+    display:flex;
+    position: relative;
+    top: 30em;
+    justify-content: center;
+}
+
+.ico {
+    background-image: url("assets/icons.png");
+    background-repeat: no-repeat;
+    width: 13.5em;
+    height: 14em;
+}
+
+.facebook {
+    background-position: -25px -16px;
+    bottom: 7em;
+    left: 11em;
+}
+
+.f {
+    bottom: 7em;
+    left: 11em;
+}
+
+.instagram {
+	background-position: -254px -16px;
+}
+
+.i {
+    right: 8em;
+}
+
+.linkedin {
+	background-position: -25px -250px;
+    
+}
+
+.l {
+    right: 16em;
+    bottom: 10em;
+}
+
+.git {
+	background-position: -259px -255px;
+}
+
+.g {
+    left: 3em;
+    bottom: 3em;
+}
+
+.fire {
+    width: 16.5em;
+    height: 16.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    outline-width: 1em;
+    outline-style: solid;
+    border-radius: 25px;
+
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-play-state: running;
+}
+
+@keyframes fade {
+    
+    0% {
+        outline-width: 0.86em;
+        outline-color: orangered;
+    }
+    50% {
+        outline-width: 0.5em;
+        outline-color: transparent;
+    }
+    100%{
+        outline-width: 0.86em;
+        outline-color: orangered;
+    }
+}
